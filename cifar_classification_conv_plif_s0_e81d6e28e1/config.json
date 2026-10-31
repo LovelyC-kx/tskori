@@ -1,0 +1,35 @@
+{
+  "job": {
+    "task": "cifar_classification",
+    "backbone": "conv",
+    "mode": "plif",
+    "seed": 0,
+    "T": 8,
+    "width": 32,
+    "alpha": 0.8,
+    "theta": 1.0,
+    "gain": "unit",
+    "detach_reset": false,
+    "epochs": 80,
+    "lr": 0.001,
+    "motion_parents": 6000,
+    "protocol": "discovery_20261030",
+    "implementation_sha": "c21c35aa1e82331b87f0e8099d09a767d5689eb3d612daa052baf5807405ca73",
+    "effective_batch": 512,
+    "precision": "fp32",
+    "execution_backend": "cuda",
+    "torch_version": "2.14.1+cu130"
+  },
+  "case_id": "cifar_classification_conv_plif_s0_e81d6e28e1",
+  "device": {
+    "device": "cuda:0",
+    "name": "NVIDIA RTX 6000D",
+    "total_gib": 83.08685302734375,
+    "free_gib": 78.100341796875,
+    "torch": "2.14.1+cu130",
+    "cuda_runtime": "13.0"
+  },
+  "effective_batch": 512,
+  "parameter_count": 104302,
+  "precision": "fp32"
+}

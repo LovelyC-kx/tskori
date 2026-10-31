@@ -1,0 +1,43 @@
+{
+  "task": "cifar_classification",
+  "backbone": "rescnn",
+  "mode": "relu",
+  "seed": 0,
+  "T": 8,
+  "width": 32,
+  "alpha": 0.8,
+  "theta": 1.0,
+  "gain": "unit",
+  "detach_reset": false,
+  "epochs": 80,
+  "lr": 0.001,
+  "motion_parents": 6000,
+  "protocol": "discovery_20261030",
+  "implementation_sha": "c21c35aa1e82331b87f0e8099d09a767d5689eb3d612daa052baf5807405ca73",
+  "effective_batch": 512,
+  "precision": "fp32",
+  "execution_backend": "cuda",
+  "torch_version": "2.14.1+cu130",
+  "case_id": "cifar_classification_rescnn_relu_s0_868e810932",
+  "test_score": 0.7086,
+  "test_loss": 0.8387118731554496,
+  "seconds_this_invocation": 849.9167759418488,
+  "peak_vram_gib": 2.6541872024536133,
+  "device": {
+    "device": "cuda:0",
+    "name": "NVIDIA RTX 6000D",
+    "total_gib": 83.08685302734375,
+    "free_gib": 78.100341796875,
+    "torch": "2.14.1+cu130",
+    "cuda_runtime": "13.0"
+  },
+  "reset_effects": {
+    "baseline": 0.0,
+    "alpha_zero": 0.0,
+    "reverse_time": 0.0,
+    "erase_layer_0": 0.0,
+    "erase_layer_1": 0.0,
+    "erase_layer_2": 0.0,
+    "erase_layer_3": 0.0
+  }
+}
